@@ -1,10 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { configureStore } from '@reduxjs/toolkit';
+import App from './components/App';
+import contactsReducer from './components/redux/contactsSlice'; 
+import filterReducer from './components/redux/filterSlice'; 
+
 import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+const store = configureStore({
+  reducer: {
+    contacts: contactsReducer,
+    filter: filterReducer,
+  },
+});
+
+ReactDOM.render(
+  <Provider store={store}>
     <App />
-  </React.StrictMode>
+  </Provider>,
+  document.getElementById('root')
 );

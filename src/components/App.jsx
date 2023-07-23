@@ -4,7 +4,7 @@ import ContactForm from './ContactForm/ContactForm';
 import ContactList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
 import { useDispatch } from 'react-redux';
-import { fetchContacts } from './redux/contactsSlice';
+import { fetchContacts } from '../redux/contactsSlice';
 
 const App = () => {
   const dispatch = useDispatch();

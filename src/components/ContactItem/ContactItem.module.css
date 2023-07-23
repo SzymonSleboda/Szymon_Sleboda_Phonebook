@@ -1,22 +1,37 @@
-.item {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.contactItem {
+  list-style: none;
+  border-bottom: 1px solid rgb(182, 182, 182);
+  padding-bottom: 15px;
 }
 
-.item:not(:last-child) {
+.contactItem {
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
-.deleteButton {
+.delBtn {
+  margin-left: 10px;
+}
+
+.btn {
+  margin-top: 15px;
   display: inline-block;
-  border: 1px solid #dfe1e5;
-  border-radius: 8px;
+  text-decoration: none;
+  padding: 10px 25px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  border: none;
   cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: rgb(255, 255, 255);
+  background-color: rgb(69 189 69);
 }
 
-.deleteButton:hover,
-.deleteButton:focus {
-  outline: none;
-  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.16);
+.btn:hover,
+.btn:focus {
+  background-color: #28ab28;
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
 }

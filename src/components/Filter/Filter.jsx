@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { DebounceInput } from 'react-debounce-input';
 
 import { setFilter } from 'redux/filterSlice';
-import { getFilter } from 'redux/selectors';
+import { getFilter } from 'redux/contactsSelectors';
 import s from './Filter.module.css';
 
 const Filter = () => {

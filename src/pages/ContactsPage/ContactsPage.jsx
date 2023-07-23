@@ -1,8 +1,8 @@
 import { useSelector } from 'react-redux';
 
-import ContactForm from 'components/ContactForm/';
-import Filter from 'components/Filter';
-import ContactList from 'components/ContactList';
+import ContactForm from 'components/ContactForm/ContactForm';
+import Filter from 'components/Filter/Filter';
+import ContactList from 'components/ContactList/ContactList';
 import { getIsLoggedIn } from 'redux/contactsSelectors';
 
 import s from './ContactsPage.module.css';

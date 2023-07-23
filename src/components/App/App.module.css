@@ -1,18 +1,4 @@
-
-.container {
-    padding: 0 50px;
-    margin-top: 50px;
-  }
-  
-  .section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 350px;
-    height: auto;
-    padding: 20px;
-  }
-  
-  .section:not(:last-child) {
-    margin-right: 32px;
-  }
+.default {
+  font-size: 22px;
+  font-weight: bold;
+}

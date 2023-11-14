@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SzymonSleboda.github.io/goit-react-hw-08-phonebook/",
+  "homepage": "https://SzymonSleboda.github.io/Szymon_Sleboda_Phonebook/",
   "dependencies": {
     "@ant-design/icons": "^5.1.4",
     "@reduxjs/toolkit": "^1.9.5",

@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Szymon_Sleboda_Phonebook/static/css/main.31a44c6d.css",
-    "main.js": "/Szymon_Sleboda_Phonebook/static/js/main.9d52b614.js",
+    "main.js": "/Szymon_Sleboda_Phonebook/static/js/main.a8abdbd6.js",
     "static/css/674.5dc9b10f.chunk.css": "/Szymon_Sleboda_Phonebook/static/css/674.5dc9b10f.chunk.css",
-    "static/js/674.aef91f7a.chunk.js": "/Szymon_Sleboda_Phonebook/static/js/674.aef91f7a.chunk.js",
+    "static/js/674.04f163cb.chunk.js": "/Szymon_Sleboda_Phonebook/static/js/674.04f163cb.chunk.js",
     "static/css/539.ed33f80f.chunk.css": "/Szymon_Sleboda_Phonebook/static/css/539.ed33f80f.chunk.css",
     "static/js/539.dac28c8e.chunk.js": "/Szymon_Sleboda_Phonebook/static/js/539.dac28c8e.chunk.js",
     "static/css/518.1f3df120.chunk.css": "/Szymon_Sleboda_Phonebook/static/css/518.1f3df120.chunk.css",
@@ -17,9 +17,9 @@
     "static/js/188.72e5d7cf.chunk.js": "/Szymon_Sleboda_Phonebook/static/js/188.72e5d7cf.chunk.js",
     "index.html": "/Szymon_Sleboda_Phonebook/index.html",
     "main.31a44c6d.css.map": "/Szymon_Sleboda_Phonebook/static/css/main.31a44c6d.css.map",
-    "main.9d52b614.js.map": "/Szymon_Sleboda_Phonebook/static/js/main.9d52b614.js.map",
+    "main.a8abdbd6.js.map": "/Szymon_Sleboda_Phonebook/static/js/main.a8abdbd6.js.map",
     "674.5dc9b10f.chunk.css.map": "/Szymon_Sleboda_Phonebook/static/css/674.5dc9b10f.chunk.css.map",
-    "674.aef91f7a.chunk.js.map": "/Szymon_Sleboda_Phonebook/static/js/674.aef91f7a.chunk.js.map",
+    "674.04f163cb.chunk.js.map": "/Szymon_Sleboda_Phonebook/static/js/674.04f163cb.chunk.js.map",
     "539.ed33f80f.chunk.css.map": "/Szymon_Sleboda_Phonebook/static/css/539.ed33f80f.chunk.css.map",
     "539.dac28c8e.chunk.js.map": "/Szymon_Sleboda_Phonebook/static/js/539.dac28c8e.chunk.js.map",
     "518.1f3df120.chunk.css.map": "/Szymon_Sleboda_Phonebook/static/css/518.1f3df120.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.31a44c6d.css",
-    "static/js/main.9d52b614.js"
+    "static/js/main.a8abdbd6.js"
   ]
 }

@@ -32,7 +32,7 @@ const HomePage = () => {
             No account?
             <span className={s.pre_text}>
               <Link to="/register" className={s.link}>
-                Sig In!
+                Sign In!
               </Link>
             </span>
           </p>
